@@ -1,0 +1,45 @@
+body{
+background-image: url("mountain.jpg");
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+color:darkblue;
+}
+h1{
+    color: darkblue;
+}
+div{
+    background-color:white;
+    border-radius: 50px;
+    font-size: 22px;
+    box-shadow: 0 4px 8px rgba(183, 127, 127, 0.1);
+    border: 2px solid darkblue;
+    box-sizing: border-box;
+    line-height: 1.6;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+}
+button{
+    background-color:darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.text{
+    font-size: 20px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:blue;
+}
+a:hover{
+color:blue;
+}
